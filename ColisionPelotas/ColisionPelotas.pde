@@ -3,7 +3,7 @@ ArrayList<Particle> particles;
 boolean exploded = false;
 
 void setup() {
-  size(800, 600);
+  size(900, 600);
   ball1 = new Ball(200, height/2, 40, color(255, 255, 0), 3, 0);
   ball2 = new Ball(width-200, height/2, 40, color(0, 0, 255), -3, 0);
   particles = new ArrayList<Particle>();
